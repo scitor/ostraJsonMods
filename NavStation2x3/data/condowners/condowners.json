@@ -1,0 +1,270 @@
+[
+  {
+    "strName" : "ItmStationNav2x3",
+    "strNameShort" : "Nav Station",
+    "strNameFriendly" : "Polaris \"Compact Navigation Console\" Nav Station",
+    "strDesc" :"The Polaris \"Compact Navigation Console\" (PCNC) is the compact product line of our comprehensive and well known navigation systems for flying spacecraft. This advanced pilot seat is equipped with strong magnetic locks for belt-less high-g maneuvers.",
+    "strItemDef" : "ItmStationNav2x3",
+    "strType"    : "Item",
+    "strLoot"    : "ItmNAVDataStorage",
+    "aInteractions" : [
+      "GUINavStation",
+      "GUIComputerLink"
+    ],
+    "aStartingConds" : [
+      "IsComputer=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsNavStation=1.0x1",
+      "IsPairable=1.0x1",
+      "IsPowered=1.0x1",
+      "IsPowerObjective=1.0x1",
+      "IsReadyNAVReveals=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsPolaris=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsReadyHeat=1.0x1",
+      "StatHeatArea=1.0x2.0",
+      "StatHeatVol=1.0x0.05",
+      "StatSolidTemp=1.0x310.0",
+      "StatBasePrice=1.0x16880.00",
+      "StatDebugProgressMax=1.0x800",
+      "StatDismantleProgressMax=1.0x360",
+      "StatMass=1.0x333.3",
+      "StatDamageMax=1.0x6",
+      "IsCategoryControlSystems=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "aTickers" : [
+      "NavStationErrorCheck",
+      "Power"
+    ],
+    "mapPoints"      : [
+      "PowerA,8,32",
+      "PowerB,-8,32",
+      "use,0,-32",
+      "sit,0,-10"
+    ],
+    "aUpdateCommands" : [
+      "OnAddCond,IsReadyCheck,AddTask,Blank,Operations,ACTNavStationCheck,true",
+      "Destructable,StatDamage,ACTStationNav2x3Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A", "NavStation",
+      "Panel Right", "DockSys",
+      "Panel Computer", "Computer",
+      "PDANAV", "PDANAV",
+      "PDA NavLink", "PDA NavLink",
+      "Electrical"
+    ],
+    "aSlotsWeHave" : [
+      "data"
+    ],
+    "strPortraitImg"  : "ItmStationNav2x3",
+    "strAudioEmitter": "ItmStationNav01Sound",
+    "jsonPI"            : "StationNav2x3"
+  },
+  {
+    "strName" : "ItmStationNav2x3Dmg",
+    "strNameShort" : "Nav Station",
+    "strNameFriendly" : "Polaris \"Compact Navigation Console\"  (Damaged)",
+    "strDesc" :"The Polaris \"Compact Navigation Console\" (PCNC) is the compact product line of our comprehensive and well known navigation systems for flying spacecraft. This advanced pilot seat is equipped with strong magnetic locks for belt-less high-g maneuvers.",
+    "strItemDef" : "ItmStationNav2x3Dmg",
+    "strType"    : "Item",
+    "strLoot"    : "ItmNAVDataStorage",
+    "aInteractions" : [
+      "GUINavStation"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsDamagedSoftware=0.15x1",
+      "IsNavStation=1.0x1",
+      "IsOff=1.0x1",
+      "IsReadyNAVReveals=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsPolaris=1.0x1",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x3500.00",
+      "StatDismantleProgressMax=1.0x30",
+      "StatInstallProgressMax=1.0x1600",
+      "StatUninstallProgressMax=1.0x1600",
+      "StatRepairProgressMax=1.0x4800",
+      "StatMass=1.0x333.3",
+      "StatDamageMax=1.0x19",
+      "IsTechnology=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "use,0,-32",
+      "sit,0,-10"
+    ],
+    "aSlotsWeHave" : [
+      "data"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTStationNav2x3Destroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmStationNav2x3Dmg",
+    "strAudioEmitter": "ItmStationNavDmgSound",
+    "jsonPI"            : null
+  },
+  {
+    "strName" : "ItmStationNav2x3DmgLoose",
+    "strNameShort" : "Nav Station",
+    "strNameFriendly" : "Polaris \"Compact Navigation Console\"  (Loose, Damaged)",
+    "strDesc" :"The Polaris \"Compact Navigation Console\" (PCNC) is the compact product line of our comprehensive and well known navigation systems for flying spacecraft. This advanced pilot seat is equipped with strong magnetic locks for belt-less high-g maneuvers.",
+    "strItemDef" : "ItmStationNav2x3DmgLoose",
+    "strLoot"    : "ItmNAVDataStorage",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsNavStation=1.0x1",
+      "IsOff=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsPolaris=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "IsOversized=1.0x1.0",
+      "IsReadyNAVReveals=1.0x1",
+      "StatBasePrice=1.0x3500.00",
+      "StatDismantleProgressMax=1.0x60",
+      "StatInstallProgressMax=1.0x1600",
+      "StatUninstallProgressMax=1.0x1600",
+      "StatRepairProgressMax=1.0x4800",
+      "StatMass=1.0x333.3",
+      "StatDamageMax=1.0x19",
+      "IsTechnology=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapPoints"      : [
+      "use,0,-32"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aSlotsWeHave" : [
+      "data"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTStationNav2x3LooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmStationNav2x3DmgLoose"
+  },
+  {
+    "strName" : "ItmStationNav2x3Loose",
+    "strNameShort" : "Nav Station",
+    "strNameFriendly" : "Polaris \"Compact Navigation Console\"  (Loose)",
+    "strDesc" :"The Polaris \"Compact Navigation Console\" (PCNC) is the compact product line of our comprehensive and well known navigation systems for flying spacecraft. This advanced pilot seat is equipped with strong magnetic locks for belt-less high-g maneuvers.",
+    "strItemDef" : "ItmStationNav2x3Loose",
+    "strType"    : "Item",
+    "strLoot"    : "ItmNAVDataStorage",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsNavStation=1.0x1",
+      "IsOff=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsPolaris=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "IsOversized=1.0x1.0",
+      "IsReadyNAVReveals=1.0x1",
+      "StatBasePrice=1.0x16880.00",
+      "StatDismantleProgressMax=1.0x360",
+      "StatInstallProgressMax=1.0x1600",
+      "StatUninstallProgressMax=1.0x1600",
+      "StatMass=1.0x333.3",
+      "StatDamageMax=1.0x6",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapPoints"      : [
+      "use,0,-32"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aSlotsWeHave" : [
+      "data"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTStationNav2x3LooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmStationNav2x3Loose"
+  },
+  {
+    "strName" : "ItmStationNav2x3Off",
+    "strNameShort" : "Nav Station",
+    "strNameFriendly" : "Polaris \"Compact Navigation Console\"  (Off)",
+    "strDesc" :"The Polaris \"Compact Navigation Console\" (PCNC) is the compact product line of our comprehensive and well known navigation systems for flying spacecraft. This advanced pilot seat is equipped with strong magnetic locks for belt-less high-g maneuvers.",
+    "strItemDef" : "ItmStationNav2x3Off",
+    "strType"    : "Item",
+    "strLoot"    : "ItmNAVDataStorage",
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "-IsDamagedSoftware=0.05x1",
+      "IsNavStation=1.0x1",
+      "IsOff=1.0x1",
+      "IsReadyNAVReveals=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsPolaris=1.0x1",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x16880.00",
+      "StatDismantleProgressMax=1.0x360",
+      "StatInstallProgressMax=1.0x1600",
+      "StatUninstallProgressMax=1.0x1600",
+      "StatMass=1.0x333.3",
+      "StatDamageMax=1.0x6",
+      "IsCategoryControlSystems=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "aTickers" : [
+      "Power"
+    ],
+    "mapPoints"      : [
+      "PowerA,8,32",
+      "PowerB,-8,32",
+      "use,0,-32",
+      "sit,0,-10"
+    ],
+    "aUpdateCommands" : [
+      "OnAddCond,IsReadyCheck,AddTask,Blank,Operations,ACTNavStationCheck,true",
+      "Destructable,StatDamage,ACTStationNav2x3Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A", "NavStation",
+      "Panel Right", "DockSys",
+      "PDANAV", "PDANAV",
+      "Electrical"
+    ],
+    "aSlotsWeHave" : [
+      "data"
+    ],
+    "strPortraitImg"  : "ItmStationNav2x3",
+    "strAudioEmitter": "ItmStationNav01Sound",
+    "jsonPI"            : "StationNav2x3"
+  }
+]

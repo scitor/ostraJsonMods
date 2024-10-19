@@ -1,0 +1,7 @@
+[
+  { "strName" : "ItmStationNav2x3Off", "aCOs"    : [ "ItmStationNav2x3Off=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmStationNav2x3", "aCOs"    : [ "ItmStationNav2x3=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmStationNav2x3Dmg", "aCOs"    : [ "ItmStationNav2x3Dmg=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmStationNav2x3Loose", "aCOs"    : [ "ItmStationNav2x3Loose=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmStationNav2x3DmgLoose", "aCOs"    : [ "ItmStationNav2x3DmgLoose=1.0x1" ], "aLoots"  : [ ], "strType" : "item" }
+]

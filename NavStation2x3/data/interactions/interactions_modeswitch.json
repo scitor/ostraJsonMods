@@ -1,0 +1,86 @@
+[
+  {
+    "strName": "MSStationNav2x3Damage",
+    "strTitle": "",
+    "strDesc": "[us] is damaged.",
+    "fDuration": 0.0,
+    "strThemType": "Other",
+    "bIgnoreFeelings": true,
+    "nLogging": 1,
+    "objLootModeSwitch": "ItmStationNav2x3Damage"
+  },
+  {
+    "strName": "MSStationNav2x3Destroy",
+    "strTitle": "",
+    "strDesc": "[us] is destroyed.",
+    "fDuration": 0.0,
+    "strThemType": "Other",
+    "bIgnoreFeelings": true,
+    "nLogging": 1,
+    "objLootModeSwitch": "ItmNavStationComponentsShell"
+  },
+  {
+    "strName": "MSStationNav2x3LooseDamage",
+    "strTitle": "",
+    "strDesc": "[us] is damaged.",
+    "fDuration": 0.0,
+    "strThemType": "Other",
+    "bIgnoreFeelings": true,
+    "nLogging": 1,
+    "objLootModeSwitch": "ItmStationNav2x3LooseDamage"
+  },
+  {
+    "strName": "MSStationNav2x3LooseDestroy",
+    "strTitle": "",
+    "strDesc": "[us] is destroyed.",
+    "fDuration": 0.0,
+    "strThemType": "Other",
+    "bIgnoreFeelings": true,
+    "nLogging": 1,
+    "objLootModeSwitch": "ItmNavStationComponentsShell"
+  },
+  {
+    "strName": "MSStationNav2x3SwitchOffAllow",
+    "strTitle": "",
+    "strDesc": "[us] switches off.",
+    "strTargetPoint": null,
+    "fTargetPointRange": 0,
+    "strAnim": null,
+    "strBubble": null,
+    "aInverse": [
+    ],
+    "fDuration": 0.0,
+    "strThemType": "Other",
+    "bIgnoreFeelings": true,
+    "strRaiseUI": null,
+    "LootCTsUs": null,
+    "LootCTsThem": null,
+    "CTTestUs": "TIsNavStationNotOff",
+    "CTTestThem": null,
+    "aLootItms": [
+    ],
+    "objLootModeSwitch": "ItmStationNav2x3OffEmpty"
+  },
+  {
+    "strName": "MSStationNav2x3SwitchOnAllow",
+    "strTitle": "",
+    "strDesc": "[us] switches on.",
+    "strTargetPoint": null,
+    "fTargetPointRange": 0,
+    "strAnim": null,
+    "strBubble": null,
+    "aInverse": [
+    ],
+    "fDuration": 0.0,
+    "strThemType": "Other",
+    "bIgnoreFeelings": true,
+    "strRaiseUI": null,
+    "LootCTsUs": null,
+    "LootCTsThem": null,
+    "CTTestUs": "TIsNavStationOff",
+    "CTTestThem": null,
+    "aLootItms": [
+    ],
+    "objLootModeSwitch": "ItmStationNav2x3Empty"
+  }
+]

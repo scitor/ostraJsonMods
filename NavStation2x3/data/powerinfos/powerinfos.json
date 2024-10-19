@@ -1,0 +1,17 @@
+[
+  
+  {
+    "strName" : "StationNav2x3",
+    "aInputPts"      : [
+      "PowerA",
+      "PowerB"
+    ],
+    "fAmount": 0.000555,
+    "strIntPowerOn": "MSStationNav2x3SwitchOnAllow",
+    "strIntPowerOff": "MSStationNav2x3SwitchOffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true
+  }
+]

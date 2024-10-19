@@ -1,0 +1,12 @@
+[
+  { "strName" : "ACTStationNav2x3Damage", "aCOs" : [ "MSStationNav2x3Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTStationNav2x3Destroy", "aCOs" : [ "MSStationNav2x3Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTStationNav2x3LooseDamage", "aCOs" : [ "MSStationNav2x3LooseDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTStationNav2x3LooseDestroy", "aCOs" : [ "MSStationNav2x3LooseDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+  { "strName" : "ItmStationNav2x3OffEmpty", "aCOs"    : [ "ItmStationNav2x3Off=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "strType" : "item" },
+  { "strName" : "ItmStationNav2x3Empty", "aCOs"    : [ "ItmStationNav2x3=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "strType" : "item" },
+  { "strName" : "ItmStationNav2x3DmgEmpty", "aCOs"    : [ "ItmStationNav2x3Dmg=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "strType" : "item" },
+  { "strName" : "ItmStationNav2x3LooseEmpty", "aCOs"    : [ "ItmStationNav2x3Loose=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "strType" : "item" },
+  { "strName" : "ItmStationNav2x3DmgLooseEmpty", "aCOs"    : [ "ItmStationNav2x3DmgLoose=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "strType" : "item" }
+]

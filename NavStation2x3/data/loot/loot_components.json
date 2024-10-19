@@ -1,0 +1,61 @@
+[
+
+  {
+    "strName" : "ItmStationNav2x3Damage",
+    "aCOs"    : [
+      "ItmStationNav2x3Dmg=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmNavStationComponents=1.0x1"
+    ],
+    "bSuppress" : true,
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmStationNav2x3LooseDamage",
+    "aCOs"    : [
+      "ItmStationNav2x3DmgLoose=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmNavStationComponents=1.0x1"
+    ],
+    "bSuppress" : true,
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmNavStationComponents",
+    "aCOs"    : [
+      "ItmComponentMobo01=0.5x1",
+      "ItmPartsScreen01=0.5x1",
+      "ItmHeatSink01=0.5x1",
+      "ItmPartsElecSmall01=1.0x1-5"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmNavStationComponentsShell",
+    "aCOs"    : [      
+      "ItmScrapTrash=1.0x1-3",
+      "ItmScrapSteel=0.5x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmNavStationDismantle",
+    "aCOs"    : [
+      "ItmComponentMobo01=1.0x1",
+      "ItmPartsScreen01=1.0x1",
+      "ItmHeatSink01=1.0x1",
+      "ItmPartsElecSmall01=1.0x5",
+      "ItmScrapTrash=1.0x3",
+      "ItmScrapSteel=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  }
+]

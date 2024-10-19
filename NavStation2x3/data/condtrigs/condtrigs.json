@@ -1,0 +1,9 @@
+ [
+  { "strName" : "TIsStationNav2x3Uninstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsNavStation" ], "aForbids" : [ "IsInstalled" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsStationNav2x3UninstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsNavStation", "IsDamaged" ], "aForbids" : [ "IsInstalled", "IsDamaged" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsStationNav2x3Installed", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsNavStation", "IsInstalled" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsStationNav2x3InstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsNavStation", "IsInstalled", "IsDamaged" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsStationNav2x3InstalledNotDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsNavStation", "IsInstalled" ], "aForbids" : [ "IsDamaged" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsStationNav2x3On", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsNavStation", "IsInstalled" ], "aForbids" : [ "IsOff" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsStationNav2x3Reserved", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsNavStation", "IsInstalled", "IsDamaged", "IsReserved" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true }
+ ]
