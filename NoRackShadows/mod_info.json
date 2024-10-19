@@ -1,0 +1,10 @@
+[
+  {
+    "strName": "NoRackShadows",
+    "strAuthor": "scitor",
+    "strModURL": "https://discord.com",
+    "strGameVersion": "0.14.0.17",
+    "strModVersion": "0.1",
+    "strNotes": "Removes shadowboxes from racks."
+  }
+]

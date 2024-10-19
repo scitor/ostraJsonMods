@@ -1,0 +1,277 @@
+[
+  {
+    "strName" : "ItmRack1x101",
+    "strImg"  : "containers/ItmRack1x101",
+    "strImgNorm"  : "containers/ItmRack1x101n",
+    "strImgDamaged" : "containers/ItmRack1x101Dmg02",
+    "strDmgColor" : "DamageTintNone",
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILFixtureAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "TILObstruction",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILFloor", "TILFloor",
+      "Blank", "Blank", "Blank"
+    ],
+    "aShadowBoxes"  : [
+    ]
+  },
+  {
+    "strName" : "ItmRack1x101Dmg",
+    "strImg"  : "containers/ItmRack1x101Dmg02",
+    "strImgNorm"  : "containers/ItmRack1x101n",
+    "strImgDamaged" : "",
+    "strDmgColor" : "DamageTintRust",
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILFixtureAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "TILObstruction",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILFloor", "TILFloor",
+      "Blank", "Blank", "Blank"
+    ],
+    "aShadowBoxes"  : [
+    ]
+  },
+
+  {
+    "strName" : "ItmRack1x201",
+    "strImg"  : "containers/ItmRack1x201",
+    "strImgNorm"  : "containers/ItmRack1x201n",
+    "strImgDamaged" : "containers/ItmRack1x201Dmg02",
+    "strDmgColor" : "DamageTintNone",
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILFixtureAdds",
+      "TILFixtureAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "TILObstruction",
+      "Blank", "TILObstruction", "TILObstruction",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILFloor", "TILFloor",
+      "Blank", "TILFloor", "TILFloor",
+      "Blank", "Blank", "Blank"
+    ],
+    "aShadowBoxes"  : [
+    ]
+  },
+  {
+    "strName" : "ItmRack1x201Dmg",
+    "strImg"  : "containers/ItmRack1x201Dmg02",
+    "strImgNorm"  : "containers/ItmRack1x201n",
+    "strImgDamaged" : "",
+    "strDmgColor" : "DamageTintRust",
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILFixtureAdds",
+      "TILFixtureAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "TILObstruction",
+      "Blank", "TILObstruction", "TILObstruction",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILFloor", "TILFloor",
+      "Blank", "TILFloor", "TILFloor",
+      "Blank", "Blank", "Blank"
+    ],
+    "aShadowBoxes"  : [
+    ]
+  },
+
+  {
+    "strName" : "ItmRack1x301",
+    "strImg"  : "containers/ItmRack1x301",
+    "strImgNorm"  : "containers/ItmRack1x301n",
+    "strImgDamaged" : "containers/ItmRack1x301Dmg02",
+    "strDmgColor" : "DamageTintNone",
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILFixtureAdds",
+      "TILFixtureAdds",
+      "TILFixtureAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "TILObstruction",
+      "Blank", "TILObstruction", "TILObstruction",
+      "Blank", "TILObstruction", "TILObstruction",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILFloor", "TILFloor",
+      "Blank", "TILFloor", "TILFloor",
+      "Blank", "TILFloor", "TILFloor",
+      "Blank", "Blank", "Blank"
+    ],
+    "aShadowBoxes"  : [
+    ]
+  },
+  {
+    "strName" : "ItmRack1x301Dmg",
+    "strImg"  : "containers/ItmRack1x301Dmg02",
+    "strImgNorm"  : "containers/ItmRack1x301n",
+    "strImgDamaged" : "",
+    "strDmgColor" : "DamageTintRust",
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILFixtureAdds",
+      "TILFixtureAdds",
+      "TILFixtureAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "TILObstruction",
+      "Blank", "TILObstruction", "TILObstruction",
+      "Blank", "TILObstruction", "TILObstruction",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILFloor", "TILFloor",
+      "Blank", "TILFloor", "TILFloor",
+      "Blank", "TILFloor", "TILFloor",
+      "Blank", "Blank", "Blank"
+    ],
+    "aShadowBoxes"  : [
+    ]
+  },
+
+  {
+    "strName" : "ItmRack1x401",
+    "strImg"  : "containers/ItmRack1x401",
+    "strImgNorm"  : "containers/ItmRack1x401n",
+    "strImgDamaged" : "containers/ItmRack1x401Dmg02",
+    "strDmgColor" : "DamageTintNone",
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILFixtureAdds",
+      "TILFixtureAdds",
+      "TILFixtureAdds",
+      "TILFixtureAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "TILObstruction",
+      "Blank", "TILObstruction", "TILObstruction",
+      "Blank", "TILObstruction", "TILObstruction",
+      "Blank", "TILObstruction", "TILObstruction",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILFloor", "TILFloor",
+      "Blank", "TILFloor", "TILFloor",
+      "Blank", "TILFloor", "TILFloor",
+      "Blank", "TILFloor", "TILFloor",
+      "Blank", "Blank", "Blank"
+    ],
+    "aShadowBoxes"  : [
+    ]
+  },
+  {
+    "strName" : "ItmRack1x401Dmg",
+    "strImg"  : "containers/ItmRack1x401Dmg02",
+    "strImgNorm"  : "containers/ItmRack1x401n",
+    "strImgDamaged" : "",
+    "strDmgColor" : "DamageTintRust",
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILFixtureAdds",
+      "TILFixtureAdds",
+      "TILFixtureAdds",
+      "TILFixtureAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "TILObstruction",
+      "Blank", "TILObstruction", "TILObstruction",
+      "Blank", "TILObstruction", "TILObstruction",
+      "Blank", "TILObstruction", "TILObstruction",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILFloor", "TILFloor",
+      "Blank", "TILFloor", "TILFloor",
+      "Blank", "TILFloor", "TILFloor",
+      "Blank", "TILFloor", "TILFloor",
+      "Blank", "Blank", "Blank"
+    ],
+    "aShadowBoxes"  : [
+    ]
+  },
+  {
+    "strName" : "ItmRack2x2C01",
+    "strImg"  : "containers/ItmRack2x2C01",
+    "strImgNorm"  : "containers/ItmRack2x2C01n",
+    "strImgDamaged" : "containers/ItmRack2x2C01Dmg02",
+    "strDmgColor" : "DamageTintNone",
+    "nCols"  : 2,
+    "aSocketAdds"    : [
+      "TILFixtureAdds", "Blank",
+      "TILFixtureAdds", "TILFixtureAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "TILObstruction", "Blank",
+      "Blank", "TILObstruction", "TILObstruction", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILFloor", "Blank", "Blank",
+      "Blank", "TILFloor", "TILFloor", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aShadowBoxes"  : [
+    ]
+  },
+  {
+    "strName" : "ItmRack2x2C01Dmg",
+    "strImg"  : "containers/ItmRack2x2C01Dmg02",
+    "strImgNorm"  : "containers/ItmRack2x2C01n",
+    "strImgDamaged" : "",
+    "strDmgColor" : "DamageTintRust",
+    "nCols"  : 2,
+    "aSocketAdds"    : [
+      "TILFixtureAdds", "Blank",
+      "TILFixtureAdds", "TILFixtureAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "TILObstruction", "Blank",
+      "Blank", "TILObstruction", "TILObstruction", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILFloor", "Blank", "Blank",
+      "Blank", "TILFloor", "TILFloor", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aShadowBoxes"  : [
+    ]
+  }
+]
