@@ -1,0 +1,10 @@
+[
+  {
+    "strName": "DualChargers",
+    "strAuthor": "scitor",
+    "strModURL": "https://discord.com/channels/302515943945273347/1288191790381531168/1288191790381531168",
+    "strGameVersion": "0.14.0.13",
+    "strModVersion": "0.2",
+    "strNotes": "Extend all single battery chargers to hold 2 batteries."
+  }
+]
