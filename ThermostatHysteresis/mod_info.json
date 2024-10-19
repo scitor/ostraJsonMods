@@ -1,0 +1,10 @@
+[
+  {
+    "strName": "ThermostatHysteresis",
+    "strAuthor": "scitor",
+    "strModURL": "https://discord.com/channels/",
+    "strGameVersion": "0.14.0.17",
+    "strModVersion": "0.1",
+    "strNotes": "Prevents excessive wear to thermostats by adding time-based hysteresis."
+  }
+]

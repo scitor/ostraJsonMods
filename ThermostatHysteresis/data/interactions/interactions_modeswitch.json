@@ -1,0 +1,24 @@
+[
+  {
+    "strName": "MSAlarmTempSwitchWhiteAllow",
+    "strTitle": "",
+    "strDesc": "[us] switches to white.",
+    "strTargetPoint": null,
+    "fTargetPointRange": 0,
+    "strAnim": null,
+    "strBubble": null,
+    "aInverse": [
+    ],
+    "fDuration": 0.01,
+    "strThemType": "Other",
+    "bIgnoreFeelings": true,
+    "strRaiseUI": null,
+    "LootCTsUs": null,
+    "LootCTsThem": null,
+    "CTTestUs": "TIsAlarmTempNotW",
+    "CTTestThem": null,
+    "aLootItms": [
+    ],
+    "objLootModeSwitch": "ItmAlarmTempOnW"
+  }
+]
