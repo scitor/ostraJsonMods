@@ -1,0 +1,21 @@
+[
+  { "strName" : "TIsDoorH2Installed", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsDoorH2", "IsInstalled" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsDoorH2InstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsDoorH2", "IsInstalled", "IsDamaged" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsDoorH2Uninstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsDoorH2" ], "aForbids" : [ "IsInstalled", "IsDamaged" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsDoorH2UninstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsDoorH2", "IsDamaged" ], "aForbids" : [ "IsInstalled" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsDoorH2AutoClosing", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAutoClose" ], "aForbids" : [  ], "aTriggers" : [ "TIsDoorH2OpenOnUnlocked" ], "bAND" : true },
+  { "strName" : "TIsDoorH2ClosedLocked", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsDoorH2", "IsLocked" ], "aForbids" : [ "IsOpen" ], "aTriggers" : [  ], "bAND" : true },
+  { "strName" : "TIsDoorH2ClosedOff", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsDoorH2", "IsOff" ], "aForbids" : [ "IsOpen" ], "aTriggers" : [  ], "bAND" : true },
+  { "strName" : "TIsDoorH2ClosedOffLocked", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsDoorH2", "IsOff", "IsLocked" ], "aForbids" : [ "IsOpen" ], "aTriggers" : [  ], "bAND" : true },
+  { "strName" : "TIsDoorH2ClosedOffTutorial", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsDoorH2", "IsOff", "TutorialPowerVizTarget" ], "aForbids" : [ "IsOpen" ], "aTriggers" : [  ], "bAND" : true },
+  { "strName" : "TIsDoorH2ClosedOffUnlocked", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsDoorH2", "IsOff" ], "aForbids" : [ "IsOpen", "IsLocked" ], "aTriggers" : [  ], "bAND" : true },
+  { "strName" : "TIsDoorH2ClosedOnLocked", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsDoorH2", "IsLocked" ], "aForbids" : [ "IsOpen", "IsOff" ], "aTriggers" : [  ], "bAND" : true },
+  { "strName" : "TIsDoorH2ClosedOnUnlocked", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsDoorH2" ], "aForbids" : [ "IsOpen", "IsOff", "IsLocked" ], "aTriggers" : [  ], "bAND" : true },
+  { "strName" : "TIsDoorH2OpenedLocked", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsDoorH2", "IsLocked" ], "aForbids" : [ ], "aTriggers" : [  ], "bAND" : true },
+  { "strName" : "TIsDoorH2OpenedOff", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsDoorH2", "IsOff" ], "aForbids" : [ ], "aTriggers" : [  ], "bAND" : true },
+  { "strName" : "TIsDoorH2OpenOffLocked", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsDoorH2", "IsOpen", "IsOff", "IsLocked" ], "aForbids" : [ ], "aTriggers" : [  ], "bAND" : true },
+  { "strName" : "TIsDoorH2OpenOffUnlocked", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsDoorH2", "IsOpen", "IsOff" ], "aForbids" : [ "IsLocked" ], "aTriggers" : [  ], "bAND" : true },
+  { "strName" : "TIsDoorH2OpenOnLocked", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsDoorH2", "IsOpen", "IsLocked" ], "aForbids" : [ "IsOff" ], "aTriggers" : [  ], "bAND" : true },
+  { "strName" : "TIsDoorH2OpenOnUnlocked", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsDoorH2", "IsOpen" ], "aForbids" : [ "IsOff", "IsLocked" ], "aTriggers" : [  ], "bAND" : true },
+  { "strName" : "TIsDoorH2ValidFactoryReset", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsDoorH2", "IsInstalled" ], "aForbids" : [ "IsOff", "IsFactoryReset" ], "aTriggers" : [ ], "bAND" : true }
+]

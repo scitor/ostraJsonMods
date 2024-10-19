@@ -1,0 +1,38 @@
+[
+  {
+    "strName" : "Door6w4ClosedOn",
+    "strColor": "AlarmGreen",
+    "strImg": "ItmLitGreenCircle",
+    "ptPos": {
+      "x": 10,
+      "y": 0
+    }
+  },
+  {
+    "strName" : "Door6w4ClosedOnLocked",
+    "strColor": "AlarmRed",
+    "strImg": "ItmLitRedSlash",
+    "ptPos": {
+      "x": 10,
+      "y": 0
+    }
+  },
+  {
+    "strName" : "Door6w4OpenOn",
+    "strColor": "AlarmGreen",
+    "strImg": "ItmLitGreen",
+    "ptPos": {
+      "x": 32,
+      "y": 5
+    }
+  },
+  {
+    "strName" : "Door6w4OpenOnLocked",
+    "strColor": "AlarmRed",
+    "strImg": "ItmLitRed",
+    "ptPos": {
+      "x": 32,
+      "y": 5
+    }
+  }
+]

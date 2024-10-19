@@ -1,0 +1,38 @@
+[
+  {
+    "strName" : "DoorH4OnL",
+    "strColor": "AlarmGreen",
+    "strImg": "ItmLitGreen",
+    "ptPos": {
+      "x": -32,
+      "y": -5
+    }
+  },
+  {
+    "strName" : "DoorH4OnR",
+    "strColor": "AlarmGreen",
+    "strImg": "ItmLitGreen",
+    "ptPos": {
+      "x": 32,
+      "y": 5
+    }
+  },
+  {
+    "strName" : "DoorH4OnLockedL",
+    "strColor": "AlarmRed",
+    "strImg": "ItmLitRed",
+    "ptPos": {
+      "x": -32,
+      "y": -5
+    }
+  },
+  {
+    "strName" : "DoorH4OnLockedR",
+    "strColor": "AlarmRed",
+    "strImg": "ItmLitRed",
+    "ptPos": {
+      "x": 32,
+      "y": 5
+    }
+  }
+]

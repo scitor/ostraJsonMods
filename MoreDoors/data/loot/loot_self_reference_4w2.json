@@ -1,0 +1,101 @@
+[
+  {
+    "strName": "ItmDoorInt4w2Closed",
+    "aCOs": [
+      "ItmDoor4w2Closed=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmDoor4w2ClosedLoose",
+    "aCOs": [
+      "ItmDoor4w2Closed=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmDoor4w2ClosedDmg",
+    "aCOs": [
+      "ItmDoor4w2ClosedDmg=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmDoor4w2ClosedDmgLoose",
+    "aCOs": [
+      "ItmDoor4w2ClosedDmgLoose=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmDoorInt4w2ClosedLocked",
+    "aCOs": [
+      "ItmDoor4w2ClosedLocked=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmDoorInt4w2ClosedOn",
+    "aCOs": [
+      "ItmDoor4w2ClosedOn=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmDoorInt4w2ClosedOnLocked",
+    "aCOs": [
+      "ItmDoor4w2ClosedOnLocked=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmDoorInt4w2Open",
+    "aCOs": [
+      "ItmDoor4w2Open=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmDoorInt4w2OpenLocked",
+    "aCOs": [
+      "ItmDoor4w2OpenLocked=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmDoorInt4w2OpenOn",
+    "aCOs": [
+      "ItmDoor4w2OpenOn=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmDoorInt4w2OpenOnLocked",
+    "aCOs": [
+      "ItmDoor4w2OpenOnLocked=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "item"
+  }
+]

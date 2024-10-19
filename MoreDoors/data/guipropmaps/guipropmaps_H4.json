@@ -1,0 +1,32 @@
+[
+  {
+    "strName" : "LockDoorH4Closed",
+    "dictGUIPropMap"       : [
+      "strGUIPrefab", "GUILocks",
+      "strFriendlyName", "Door Lock",
+      "strGUIPrefabRight", null,
+      "strGUIPrefabLeft", null,
+      "strGUIPrefabUp", null,
+      "strGUIPrefabDown", null,
+      "strBrand", "Bieler",
+      "strBrandSub", "Commercial Door Systems",
+      "strMSLock", "ItmDoorIntH4ClosedLocked",
+      "strMSUnlock", "ItmDoorIntH4Closed"
+    ]
+  },
+  {
+    "strName" : "LockDoorH4Open",
+    "dictGUIPropMap"       : [
+      "strGUIPrefab", "GUILocks",
+      "strFriendlyName", "Door Lock",
+      "strGUIPrefabRight", null,
+      "strGUIPrefabLeft", null,
+      "strGUIPrefabUp", null,
+      "strGUIPrefabDown", null,
+      "strBrand", "Bieler",
+      "strBrandSub", "Commercial Door Systems",
+      "strMSLock", "ItmDoorIntH4OpenLocked",
+      "strMSUnlock", "ItmDoorIntH4Open"
+    ]
+  }
+]

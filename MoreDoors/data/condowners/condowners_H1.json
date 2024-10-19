@@ -1,0 +1,618 @@
+[
+  {
+    "strName" : "ItmDoorH1Closed",
+    "strNameShort" : "Door H1",
+    "strNameFriendly" : "Door H1 (Closed, Off)",
+    "strItemDef" : "ItmDoorH1Closed",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSPortalOpenStartRemoveAuto",
+      "ACTPryOpen",
+      "GUILocks"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsCheckRoom=1.0x1",
+      "IsDoorInt=1.0x1",
+      "IsDoorH1=1.0x1",
+      "IsLockKey=1.0x1.0",
+      "IsLockPIN=1.0x1.0",
+      "IsOff=1.0x1",
+      "IsPortal=1.0x1",
+      "StatGasPressureMax=1.0x2000",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x1670.0",
+      "StatDebugProgressMax=1.0x877",
+      "StatDismantleProgressMax=1.0x300",
+      "StatInstallProgressMax=1.0x1500",
+      "StatUninstallProgressMax=1.0x1500",
+      "StatMass=1.0x121.0",
+      "StatDamageMax=1.0x20",
+      "IsMechanical=1.0x1",
+      "IsCategoryHull=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16","RoomB,0,-16",
+      "use,0,0",
+      "PowerA,-16,0",
+      "PowerB,16,0"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDoorH1ClosedDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A", "LockDoorH1Closed",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmDoorH1Closed",
+    "aTickers" : [
+      "Power"
+    ],
+    "jsonPI"            : "DoorH1Closed"
+  },
+  {
+    "strName" : "ItmDoorH1ClosedLocked",
+    "strNameShort" : "Door H1",
+    "strNameFriendly" : "Door H1 (Closed, Off, Locked)",
+    "strItemDef" : "ItmDoorH1Closed",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSPortalOpenStartRemoveAuto",
+      "GUILocks"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsCheckRoom=1.0x1",
+      "IsDoorInt=1.0x1",
+      "IsDoorH1=1.0x1",
+      "IsLocked=1.0x1.0",
+      "IsLockKey=1.0x1.0",
+      "IsLockPIN=1.0x1.0",
+      "IsOff=1.0x1",
+      "IsPortal=1.0x1",
+      "StatGasPressureMax=1.0x2500",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x1670.0",
+      "StatDebugProgressMax=1.0x877",
+      "StatDismantleProgressMax=1.0x300",
+      "StatInstallProgressMax=1.0x1500",
+      "StatUninstallProgressMax=1.0x1500",
+      "StatMass=1.0x121.0",
+      "StatDamageMax=1.0x20",
+      "IsMechanical=1.0x1",
+      "IsCategoryHull=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16","RoomB,0,-16",
+      "use,0,0",
+      "PowerA,-16,0",
+      "PowerB,16,0"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDoorH1ClosedDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A", "LockDoorH1Closed",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmDoorH1Closed",
+    "aTickers" : [
+      "Power"
+    ],
+    "jsonPI"            : "DoorH1ClosedLocked"
+  },
+  {
+    "strName" : "ItmDoorH1ClosedOn",
+    "strNameShort" : "Door H1",
+    "strNameFriendly" : "Door H1 (Closed)",
+    "strItemDef" : "ItmDoorH1ClosedOn",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSPortalOpenStartRemoveAuto",
+      "GUILocks"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsCheckRoom=1.0x1",
+      "IsDoorInt=1.0x1",
+      "IsDoorH1=1.0x1",
+      "IsLockKey=1.0x1.0",
+      "IsLockPIN=1.0x1.0",
+      "IsPowered=1.0x1",
+      "IsPortal=1.0x1",
+      "StatGasPressureMax=1.0x2000",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x1670.0",
+      "StatDebugProgressMax=1.0x877",
+      "StatDismantleProgressMax=1.0x300",
+      "StatInstallProgressMax=1.0x1500",
+      "StatUninstallProgressMax=1.0x1500",
+      "StatMass=1.0x121.0",
+      "StatDamageMax=1.0x20",
+      "IsMechanical=1.0x1",
+      "IsCategoryHull=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16","RoomB,0,-16",
+      "use,0,0",
+      "PowerA,-16,0",
+      "PowerB,16,0"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDoorH1ClosedDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A", "LockDoorH1Closed",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmDoorH1Closed",
+    "aTickers" : [
+      "Power"
+    ],
+    "jsonPI"            : "DoorH1Closed",
+    "strAudioEmitter": "ItmDoor01ClosedSound"
+  },
+  {
+    "strName" : "ItmDoorH1ClosedOnLocked",
+    "strNameShort" : "Door H1",
+    "strNameFriendly" : "Door H1 (Closed, Locked)",
+    "strItemDef" : "ItmDoorH1ClosedOnLocked",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSPortalOpenStartRemoveAuto",
+      "GUILocks"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsCheckRoom=1.0x1",
+      "IsDoorInt=1.0x1",
+      "IsDoorH1=1.0x1",
+      "IsLocked=1.0x1.0",
+      "IsLockKey=1.0x1.0",
+      "IsLockPIN=1.0x1.0",
+      "IsPowered=1.0x1",
+      "IsPortal=1.0x1",
+      "StatGasPressureMax=1.0x2500",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x1670.0",
+      "StatDebugProgressMax=1.0x877",
+      "StatDismantleProgressMax=1.0x300",
+      "StatInstallProgressMax=1.0x1500",
+      "StatUninstallProgressMax=1.0x1500",
+      "StatMass=1.0x121.0",
+      "StatDamageMax=1.0x20",
+      "IsMechanical=1.0x1",
+      "IsCategoryHull=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16","RoomB,0,-16",
+      "use,0,0",
+      "PowerA,-16,0",
+      "PowerB,16,0"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDoorH1ClosedDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A", "LockDoorH1Closed",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmDoorH1Closed",
+    "aTickers" : [
+      "Power"
+    ],
+    "jsonPI"            : "DoorH1ClosedLocked",
+    "strAudioEmitter": "ItmDoor01ClosedSound"
+  },
+  {
+    "strName" : "ItmDoorH1ClosedLoose",
+    "strNameShort" : "Door H1",
+    "strNameFriendly" : "Door H1 (Closed, Loose)",
+    "strItemDef" : "ItmDoorH1ClosedLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDoorInt=1.0x1",
+      "IsDoorH1=1.0x1",
+      "IsOff=1.0x1",
+      "IsPortal=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x1670.0",
+      "StatDebugProgressMax=1.0x877",
+      "StatDismantleProgressMax=1.0x300",
+      "StatInstallProgressMax=1.0x1500",
+      "StatUninstallProgressMax=1.0x1500",
+      "StatMass=1.0x121.0",
+      "StatDamageMax=1.0x20",
+      "IsMechanical=1.0x1",
+      "IsCategoryHull=1.0x1"
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "GasExchange,RoomA,RoomB,0.6",
+      "Destructable,StatDamage,ACTDoorH1ClosedLooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmDoorH1Closed"
+  },
+  {
+    "strName" : "ItmDoorH1Open",
+    "strNameShort" : "Door H1",
+    "strNameFriendly" : "Door H1 (Opened, Off)",
+    "strItemDef" : "ItmDoorH1Open",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSPortalCloseStartAddAuto",
+      "GUILocks"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsCheckRoom=1.0x1",
+      "IsDoorInt=1.0x1",
+      "IsDoorH1=1.0x1",
+      "IsLockKey=1.0x1.0",
+      "IsLockPIN=1.0x1.0",
+      "IsOff=1.0x1",
+      "IsOpen=1.0x1",
+      "IsPortal=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x1670.0",
+      "StatDebugProgressMax=1.0x877",
+      "StatDismantleProgressMax=1.0x300",
+      "StatInstallProgressMax=1.0x1500",
+      "StatUninstallProgressMax=1.0x1500",
+      "StatMass=1.0x121.0",
+      "StatDamageMax=1.0x20",
+      "IsMechanical=1.0x1",
+      "IsCategoryHull=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16","RoomB,0,-16",
+      "use,0,0",
+      "PowerA,-16,0",
+      "PowerB,16,0"
+    ],
+    "aUpdateCommands" : [
+      "GasExchange,RoomA,RoomB,0.6",
+      "Destructable,StatDamage,ACTDoorH1ClosedDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A", "LockDoorH1Open",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmDoorH1Open",
+    "aTickers" : [
+      "Power"
+    ],
+    "jsonPI"            : "DoorH1Open"
+  },
+  {
+    "strName" : "ItmDoorH1OpenLocked",
+    "strNameShort" : "Door H1",
+    "strNameFriendly" : "Door H1 (Opened, Locked, Off)",
+    "strItemDef" : "ItmDoorH1Open",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSPortalCloseStartAddAuto",
+      "GUILocks"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsCheckRoom=1.0x1",
+      "IsDoorInt=1.0x1",
+      "IsDoorH1=1.0x1",
+      "IsLocked=1.0x1.0",
+      "IsLockKey=1.0x1.0",
+      "IsLockPIN=1.0x1.0",
+      "IsOff=1.0x1",
+      "IsOpen=1.0x1",
+      "IsPortal=1.0x1",
+      "IsPowered=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x1670.0",
+      "StatDebugProgressMax=1.0x877",
+      "StatDismantleProgressMax=1.0x300",
+      "StatInstallProgressMax=1.0x1500",
+      "StatUninstallProgressMax=1.0x1500",
+      "StatMass=1.0x121.0",
+      "StatDamageMax=1.0x20",
+      "IsMechanical=1.0x1",
+      "IsCategoryHull=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16","RoomB,0,-16",
+      "use,0,0",
+      "PowerA,-16,0",
+      "PowerB,16,0"
+    ],
+    "aUpdateCommands" : [
+      "GasExchange,RoomA,RoomB,0.6",
+      "Destructable,StatDamage,ACTDoorH1ClosedDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A", "LockDoorH1Open",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmDoorH1Open",
+    "aTickers" : [
+      "Power"
+    ],
+    "jsonPI"            : "DoorH1OpenLocked",
+    "strAudioEmitter": "ItmDoor01OpenLockedSound"
+  },
+  {
+    "strName" : "ItmDoorH1OpenOn",
+    "strNameShort" : "Door H1",
+    "strNameFriendly" : "Door H1 (Opened)",
+    "strItemDef" : "ItmDoorH1OpenOn",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSPortalCloseStartAddAuto",
+      "GUILocks"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAutoClose=1.0x1",
+      "IsCheckRoom=1.0x1",
+      "IsDoorInt=1.0x1",
+      "IsDoorH1=1.0x1",
+      "IsLockKey=1.0x1.0",
+      "IsLockPIN=1.0x1.0",
+      "IsPledgeChecker=1.0x1",
+      "IsPowered=1.0x1",
+      "IsOpen=1.0x1",
+      "IsPortal=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x1670.0",
+      "StatDebugProgressMax=1.0x877",
+      "StatDismantleProgressMax=1.0x300",
+      "StatInstallProgressMax=1.0x1500",
+      "StatUninstallProgressMax=1.0x1500",
+      "StatMass=1.0x121.0",
+      "StatDamageMax=1.0x20",
+      "IsMechanical=1.0x1",
+      "IsCategoryHull=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16","RoomB,0,-16",
+      "use,0,0",
+      "PowerA,-16,0",
+      "PowerB,16,0"
+    ],
+    "aUpdateCommands" : [
+      "GasExchange,RoomA,RoomB,0.6",
+      "Pledge,AutoClose",
+      "Destructable,StatDamage,ACTDoorH1ClosedDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A", "LockDoorH1Open",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmDoorH1Open",
+    "aTickers" : [
+      "Power",
+      "Heartbeat"
+    ],
+    "jsonPI"            : "DoorH1Open",
+    "strAudioEmitter": "ItmDoor01OpenSound"
+  },
+  {
+    "strName" : "ItmDoorH1OpenOnLocked",
+    "strNameShort" : "Door H1",
+    "strNameFriendly" : "Door H1 (Opened, Locked)",
+    "strItemDef" : "ItmDoorH1OpenOnLocked",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSPortalCloseStartAddAuto",
+      "GUILocks"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsCheckRoom=1.0x1",
+      "IsDoorInt=1.0x1",
+      "IsDoorH1=1.0x1",
+      "IsLocked=1.0x1.0",
+      "IsLockKey=1.0x1.0",
+      "IsLockPIN=1.0x1.0",
+      "IsOpen=1.0x1",
+      "IsPledgeChecker=1.0x1",
+      "IsPowered=1.0x1",
+      "IsPortal=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x1670.0",
+      "StatDebugProgressMax=1.0x877",
+      "StatDismantleProgressMax=1.0x300",
+      "StatInstallProgressMax=1.0x1500",
+      "StatUninstallProgressMax=1.0x1500",
+      "StatMass=1.0x121.0",
+      "StatDamageMax=1.0x20",
+      "IsMechanical=1.0x1",
+      "IsCategoryHull=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16","RoomB,0,-16",
+      "use,0,0",
+      "PowerA,-16,0",
+      "PowerB,16,0"
+    ],
+    "aUpdateCommands" : [
+      "GasExchange,RoomA,RoomB,0.6",
+      "Destructable,StatDamage,ACTDoorH1ClosedDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A", "LockDoorH1Open",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmDoorH1Open",
+    "aTickers" : [
+      "Power"
+    ],
+    "jsonPI"            : "DoorH1OpenLocked"
+  },
+  {
+    "strName" : "ItmDoorH1ClosedDmg",
+    "strNameShort" : "Door H1",
+    "strNameFriendly" : "Door H1 (Closed, Damaged)",
+    "strItemDef" : "ItmDoorH1ClosedDmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUILocks"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsCheckRoom=1.0x1",
+      "IsDoorInt=1.0x1",
+      "IsDoorH1=1.0x1",
+      "IsLockKey=1.0x1.0",
+      "IsLockPIN=1.0x1.0",
+      "IsOff=1.0x1",
+      "IsPortal=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x540.0",
+      "StatDebugProgressMax=1.0x877",
+      "StatDismantleProgressMax=1.0x300",
+      "StatInstallProgressMax=1.0x1500",
+      "StatUninstallProgressMax=1.0x1500",
+      "StatRepairProgressMax=1.0x4500",
+      "StatMass=1.0x121.0",
+      "StatDamageMax=1.0x60",
+      "IsMechanical=1.0x1",
+      "IsCategoryHull=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16","RoomB,0,-16",
+      "use,0,0"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDoorH1ClosedDestroy,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A", "LockDoorH1Closed",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmDoorH1ClosedDmg02",
+    "aTickers" : [
+    ]
+  },
+  {
+    "strName" : "ItmDoorH1ClosedDmgLoose",
+    "strNameShort" : "Door H1",
+    "strNameFriendly" : "Door H1 (Loose, Damaged)",
+    "strItemDef" : "ItmDoorH1ClosedDmgLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsDoorInt=1.0x1",
+      "IsDoorH1=1.0x1",
+      "IsOff=1.0x1",
+      "IsPortal=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x540.0",
+      "StatDebugProgressMax=1.0x877",
+      "StatDismantleProgressMax=1.0x300",
+      "StatInstallProgressMax=1.0x1500",
+      "StatUninstallProgressMax=1.0x1500",
+      "StatRepairProgressMax=1.0x4500",
+      "StatMass=1.0x121.0",
+      "StatDamageMax=1.0x60",
+      "IsMechanical=1.0x1",
+      "IsCategoryHull=1.0x1"
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDoorH1ClosedLooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmDoorH1ClosedDmg02Loose"
+  }
+]

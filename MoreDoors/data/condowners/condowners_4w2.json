@@ -1,0 +1,631 @@
+[
+  {
+    "strName" : "ItmDoor4w2Closed",
+    "strNameShort" : "Door 4/2",
+    "strNameFriendly" : "Door 4/2 (Closed, Off)",
+    "strItemDef" : "ItmDoor4w2Closed",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSPortalOpenStartRemoveAuto",
+      "ACTPryOpen",
+      "GUILocks"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsCheckRoom=1.0x1",
+      "IsDoorInt=1.0x1",
+      "IsDoor4w2=1.0x1",
+      "IsLockKey=1.0x1.0",
+      "IsLockPIN=1.0x1.0",
+      "IsOff=1.0x1",
+      "IsPortal=1.0x1",
+      "StatGasPressureMax=1.0x2000",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2670.0",
+      "StatDebugProgressMax=1.0x877",
+      "StatDismantleProgressMax=1.0x300",
+      "StatInstallProgressMax=1.0x1500",
+      "StatUninstallProgressMax=1.0x1500",
+      "StatMass=1.0x151.0",
+      "StatDamageMax=1.0x20",
+      "IsMechanical=1.0x1",
+      "IsCategoryHull=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,-8,16","RoomB,-8,-16",
+      "RoomC,8,16","RoomD,8,-16",
+      "use,0,0",
+      "PowerA,-24,0",
+      "PowerB,24,0"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDoor4w2ClosedDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A", "LockDoor4w2Closed",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmDoor4w2Closed",
+    "aTickers" : [
+      "Power"
+    ],
+    "jsonPI"            : "Door4w2Closed"
+  },
+  {
+    "strName" : "ItmDoor4w2ClosedLocked",
+    "strNameShort" : "Door 4/2",
+    "strNameFriendly" : "Door 4/2 (Closed, Off, Locked)",
+    "strItemDef" : "ItmDoor4w2Closed",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSPortalOpenStartRemoveAuto",
+      "GUILocks"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsCheckRoom=1.0x1",
+      "IsDoorInt=1.0x1",
+      "IsDoor4w2=1.0x1",
+      "IsLocked=1.0x1.0",
+      "IsLockKey=1.0x1.0",
+      "IsLockPIN=1.0x1.0",
+      "IsOff=1.0x1",
+      "IsPortal=1.0x1",
+      "StatGasPressureMax=1.0x2500",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2670.0",
+      "StatDebugProgressMax=1.0x877",
+      "StatDismantleProgressMax=1.0x300",
+      "StatInstallProgressMax=1.0x1500",
+      "StatUninstallProgressMax=1.0x1500",
+      "StatMass=1.0x151.0",
+      "StatDamageMax=1.0x20",
+      "IsMechanical=1.0x1",
+      "IsCategoryHull=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,-8,16","RoomB,-8,-16",
+      "RoomC,8,16","RoomD,8,-16",
+      "use,0,0",
+      "PowerA,-24,0",
+      "PowerB,24,0"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDoor4w2ClosedDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A", "LockDoor4w2Closed",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmDoor4w2Closed",
+    "aTickers" : [
+      "Power"
+    ],
+    "jsonPI"            : "Door4w2ClosedLocked"
+  },
+  {
+    "strName" : "ItmDoor4w2ClosedOn",
+    "strNameShort" : "Door 4/2",
+    "strNameFriendly" : "Door 4/2 (Closed)",
+    "strItemDef" : "ItmDoor4w2ClosedOn",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSPortalOpenStartRemoveAuto",
+      "GUILocks"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsCheckRoom=1.0x1",
+      "IsDoorInt=1.0x1",
+      "IsDoor4w2=1.0x1",
+      "IsLockKey=1.0x1.0",
+      "IsLockPIN=1.0x1.0",
+      "IsPowered=1.0x1",
+      "IsPortal=1.0x1",
+      "StatGasPressureMax=1.0x2000",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2670.0",
+      "StatDebugProgressMax=1.0x877",
+      "StatDismantleProgressMax=1.0x300",
+      "StatInstallProgressMax=1.0x1500",
+      "StatUninstallProgressMax=1.0x1500",
+      "StatMass=1.0x151.0",
+      "StatDamageMax=1.0x20",
+      "IsMechanical=1.0x1",
+      "IsCategoryHull=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,-8,16","RoomB,-8,-16",
+      "RoomC,8,16","RoomD,8,-16",
+      "use,0,0",
+      "PowerA,-24,0",
+      "PowerB,24,0"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDoor4w2ClosedDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A", "LockDoor4w2Closed",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmDoor4w2Closed",
+    "aTickers" : [
+      "Power"
+    ],
+    "jsonPI"            : "Door4w2Closed",
+    "strAudioEmitter": "ItmDoor01ClosedSound"
+  },
+  {
+    "strName" : "ItmDoor4w2ClosedOnLocked",
+    "strNameShort" : "Door 4/2",
+    "strNameFriendly" : "Door 4/2 (Closed, Locked)",
+    "strItemDef" : "ItmDoor4w2ClosedOnLocked",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSPortalOpenStartRemoveAuto",
+      "GUILocks"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsCheckRoom=1.0x1",
+      "IsDoorInt=1.0x1",
+      "IsDoor4w2=1.0x1",
+      "IsLocked=1.0x1.0",
+      "IsLockKey=1.0x1.0",
+      "IsLockPIN=1.0x1.0",
+      "IsPowered=1.0x1",
+      "IsPortal=1.0x1",
+      "StatGasPressureMax=1.0x2500",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2670.0",
+      "StatDebugProgressMax=1.0x877",
+      "StatDismantleProgressMax=1.0x300",
+      "StatInstallProgressMax=1.0x1500",
+      "StatUninstallProgressMax=1.0x1500",
+      "StatMass=1.0x151.0",
+      "StatDamageMax=1.0x20",
+      "IsMechanical=1.0x1",
+      "IsCategoryHull=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,-8,16","RoomB,-8,-16",
+      "RoomC,8,16","RoomD,8,-16",
+      "use,0,0",
+      "PowerA,-24,0",
+      "PowerB,24,0"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDoor4w2ClosedDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A", "LockDoor4w2Closed",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmDoor4w2Closed",
+    "aTickers" : [
+      "Power"
+    ],
+    "jsonPI"            : "Door4w2ClosedLocked",
+    "strAudioEmitter": "ItmDoor01ClosedSound"
+  },
+  {
+    "strName" : "ItmDoor4w2ClosedLoose",
+    "strNameShort" : "Door 4/2",
+    "strNameFriendly" : "Door 4/2 (Closed, Loose)",
+    "strItemDef" : "ItmDoor4w2ClosedLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDoorInt=1.0x1",
+      "IsDoor4w2=1.0x1",
+      "IsOff=1.0x1",
+      "IsPortal=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x2670.0",
+      "StatDebugProgressMax=1.0x877",
+      "StatDismantleProgressMax=1.0x300",
+      "StatInstallProgressMax=1.0x1500",
+      "StatUninstallProgressMax=1.0x1500",
+      "StatMass=1.0x151.0",
+      "StatDamageMax=1.0x20",
+      "IsMechanical=1.0x1",
+      "IsCategoryHull=1.0x1"
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "GasExchange,RoomA,RoomB,1.0",
+      "Destructable,StatDamage,ACTDoor4w2ClosedLooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmDoor4w2Closed"
+  },
+  {
+    "strName" : "ItmDoor4w2Open",
+    "strNameShort" : "Door 4/2",
+    "strNameFriendly" : "Door 4/2 (Opened, Off)",
+    "strItemDef" : "ItmDoor4w2Open",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSPortalCloseStartAddAuto",
+      "GUILocks"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsCheckRoom=1.0x1",
+      "IsDoorInt=1.0x1",
+      "IsDoor4w2=1.0x1",
+      "IsLockKey=1.0x1.0",
+      "IsLockPIN=1.0x1.0",
+      "IsOff=1.0x1",
+      "IsOpen=1.0x1",
+      "IsPortal=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2670.0",
+      "StatDebugProgressMax=1.0x877",
+      "StatDismantleProgressMax=1.0x300",
+      "StatInstallProgressMax=1.0x1500",
+      "StatUninstallProgressMax=1.0x1500",
+      "StatMass=1.0x151.0",
+      "StatDamageMax=1.0x20",
+      "IsMechanical=1.0x1",
+      "IsCategoryHull=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,-8,16","RoomB,-8,-16",
+      "RoomC,8,16","RoomD,8,-16",
+      "use,0,0",
+      "PowerA,-24,0",
+      "PowerB,24,0"
+    ],
+    "aUpdateCommands" : [
+      "GasExchange,RoomA,RoomB,1.0",
+      "GasExchange,RoomC,RoomD,1.0",
+      "Destructable,StatDamage,ACTDoor4w2ClosedDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A", "LockDoor4w2Open",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmDoor4w2Open",
+    "aTickers" : [
+      "Power"
+    ],
+    "jsonPI"            : "Door4w2Open"
+  },
+  {
+    "strName" : "ItmDoor4w2OpenLocked",
+    "strNameShort" : "Door 4/2",
+    "strNameFriendly" : "Door 4/2 (Opened, Locked, Off)",
+    "strItemDef" : "ItmDoor4w2Open",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSPortalCloseStartAddAuto",
+      "GUILocks"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsCheckRoom=1.0x1",
+      "IsDoorInt=1.0x1",
+      "IsDoor4w2=1.0x1",
+      "IsLocked=1.0x1.0",
+      "IsLockKey=1.0x1.0",
+      "IsLockPIN=1.0x1.0",
+      "IsOff=1.0x1",
+      "IsOpen=1.0x1",
+      "IsPortal=1.0x1",
+      "IsPowered=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2670.0",
+      "StatDebugProgressMax=1.0x877",
+      "StatDismantleProgressMax=1.0x300",
+      "StatInstallProgressMax=1.0x1500",
+      "StatUninstallProgressMax=1.0x1500",
+      "StatMass=1.0x151.0",
+      "StatDamageMax=1.0x20",
+      "IsMechanical=1.0x1",
+      "IsCategoryHull=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,-8,16","RoomB,-8,-16",
+      "RoomC,8,16","RoomD,8,-16",
+      "use,0,0",
+      "PowerA,-24,0",
+      "PowerB,24,0"
+    ],
+    "aUpdateCommands" : [
+      "GasExchange,RoomA,RoomB,1.0",
+      "GasExchange,RoomC,RoomD,1.0",
+      "Destructable,StatDamage,ACTDoor4w2ClosedDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A", "LockDoor4w2Open",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmDoor4w2Open",
+    "aTickers" : [
+      "Power"
+    ],
+    "jsonPI"            : "Door4w2OpenLocked",
+    "strAudioEmitter": "ItmDoor01OpenLockedSound"
+  },
+  {
+    "strName" : "ItmDoor4w2OpenOn",
+    "strNameShort" : "Door 4/2",
+    "strNameFriendly" : "Door 4/2 (Opened)",
+    "strItemDef" : "ItmDoor4w2OpenOn",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSPortalCloseStartAddAuto",
+      "GUILocks"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAutoClose=1.0x1",
+      "IsCheckRoom=1.0x1",
+      "IsDoorInt=1.0x1",
+      "IsDoor4w2=1.0x1",
+      "IsLockKey=1.0x1.0",
+      "IsLockPIN=1.0x1.0",
+      "IsPledgeChecker=1.0x1",
+      "IsPowered=1.0x1",
+      "IsOpen=1.0x1",
+      "IsPortal=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2670.0",
+      "StatDebugProgressMax=1.0x877",
+      "StatDismantleProgressMax=1.0x300",
+      "StatInstallProgressMax=1.0x1500",
+      "StatUninstallProgressMax=1.0x1500",
+      "StatMass=1.0x151.0",
+      "StatDamageMax=1.0x20",
+      "IsMechanical=1.0x1",
+      "IsCategoryHull=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,-8,16","RoomB,-8,-16",
+      "RoomC,8,16","RoomD,8,-16",
+      "use,0,0",
+      "PowerA,-24,0",
+      "PowerB,24,0"
+    ],
+    "aUpdateCommands" : [
+      "GasExchange,RoomA,RoomB,1.0",
+      "GasExchange,RoomC,RoomD,1.0",
+      "Pledge,AutoClose",
+      "Destructable,StatDamage,ACTDoor4w2ClosedDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A", "LockDoor4w2Open",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmDoor4w2Open",
+    "aTickers" : [
+      "Power",
+      "Heartbeat"
+    ],
+    "jsonPI"            : "Door4w2Open",
+    "strAudioEmitter": "ItmDoor01OpenSound"
+  },
+  {
+    "strName" : "ItmDoor4w2OpenOnLocked",
+    "strNameShort" : "Door 4/2",
+    "strNameFriendly" : "Door 4/2 (Opened, Locked)",
+    "strItemDef" : "ItmDoor4w2OpenOnLocked",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSPortalCloseStartAddAuto",
+      "GUILocks"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsCheckRoom=1.0x1",
+      "IsDoorInt=1.0x1",
+      "IsDoor4w2=1.0x1",
+      "IsLocked=1.0x1.0",
+      "IsLockKey=1.0x1.0",
+      "IsLockPIN=1.0x1.0",
+      "IsOpen=1.0x1",
+      "IsPledgeChecker=1.0x1",
+      "IsPowered=1.0x1",
+      "IsPortal=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2670.0",
+      "StatDebugProgressMax=1.0x877",
+      "StatDismantleProgressMax=1.0x300",
+      "StatInstallProgressMax=1.0x1500",
+      "StatUninstallProgressMax=1.0x1500",
+      "StatMass=1.0x151.0",
+      "StatDamageMax=1.0x20",
+      "IsMechanical=1.0x1",
+      "IsCategoryHull=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,-8,16","RoomB,-8,-16",
+      "RoomC,8,16","RoomD,8,-16",
+      "use,0,0",
+      "PowerA,-24,0",
+      "PowerB,24,0"
+    ],
+    "aUpdateCommands" : [
+      "GasExchange,RoomA,RoomB,1.0",
+      "GasExchange,RoomC,RoomD,1.0",
+      "Destructable,StatDamage,ACTDoor4w2ClosedDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A", "LockDoor4w2Open",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmDoor4w2Open",
+    "aTickers" : [
+      "Power"
+    ],
+    "jsonPI"            : "Door4w2OpenLocked"
+  },
+  {
+    "strName" : "ItmDoor4w2ClosedDmg",
+    "strNameShort" : "Door 4/2",
+    "strNameFriendly" : "Door 4/2 (Closed, Damaged)",
+    "strItemDef" : "ItmDoor4w2ClosedDmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUILocks"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsCheckRoom=1.0x1",
+      "IsDoorInt=1.0x1",
+      "IsDoor4w2=1.0x1",
+      "IsLockKey=1.0x1.0",
+      "IsLockPIN=1.0x1.0",
+      "IsOff=1.0x1",
+      "IsPortal=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x540.0",
+      "StatDebugProgressMax=1.0x877",
+      "StatDismantleProgressMax=1.0x300",
+      "StatInstallProgressMax=1.0x1500",
+      "StatUninstallProgressMax=1.0x1500",
+      "StatRepairProgressMax=1.0x4500",
+      "StatMass=1.0x151.0",
+      "StatDamageMax=1.0x60",
+      "IsMechanical=1.0x1",
+      "IsCategoryHull=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,-8,16","RoomB,-8,-16",
+      "RoomC,8,16","RoomD,8,-16",
+      "use,0,0"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDoor4w2ClosedDestroy,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A", "LockDoor4w2Closed",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmDoor4w2ClosedDmg02",
+    "aTickers" : [
+    ]
+  },
+  {
+    "strName" : "ItmDoor4w2ClosedDmgLoose",
+    "strNameShort" : "Door 4/2",
+    "strNameFriendly" : "Door 4/2 (Loose, Damaged)",
+    "strItemDef" : "ItmDoor4w2ClosedDmgLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsDoorInt=1.0x1",
+      "IsDoor4w2=1.0x1",
+      "IsOff=1.0x1",
+      "IsPortal=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x540.0",
+      "StatDebugProgressMax=1.0x877",
+      "StatDismantleProgressMax=1.0x300",
+      "StatInstallProgressMax=1.0x1500",
+      "StatUninstallProgressMax=1.0x1500",
+      "StatRepairProgressMax=1.0x4500",
+      "StatMass=1.0x151.0",
+      "StatDamageMax=1.0x60",
+      "IsMechanical=1.0x1",
+      "IsCategoryHull=1.0x1"
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDoor4w2ClosedLooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmDoor4w2ClosedDmg02Loose"
+  }
+]

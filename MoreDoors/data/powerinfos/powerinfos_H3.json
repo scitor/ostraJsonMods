@@ -1,0 +1,58 @@
+[
+  {
+    "strName": "DoorH3Closed",
+    "aInputPts": [
+      "PowerA",
+      "PowerB"
+    ],
+    "fAmount": 5e-6,
+    "strIntPowerOn": "MSDoorH3ClosedPowerupAllow",
+    "strIntPowerOff": "MSDoorH3ClosedShutdownAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower": true
+  },
+  {
+    "strName": "DoorH3ClosedLocked",
+    "aInputPts": [
+      "PowerA",
+      "PowerB"
+    ],
+    "fAmount": 5e-6,
+    "strIntPowerOn": "MSDoorH3ClosedLockedPowerupAllow",
+    "strIntPowerOff": "MSDoorH3ClosedLockedShutdownAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower": true
+  },
+  {
+    "strName": "DoorH3Open",
+    "aInputPts": [
+      "PowerA",
+      "PowerB"
+    ],
+    "fAmount": 5e-6,
+    "strIntPowerOn": "MSDoorH3OpenPowerupAllow",
+    "strIntPowerOff": "MSDoorH3OpenShutdownAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower": true
+  },
+  {
+    "strName": "DoorH3OpenLocked",
+    "aInputPts": [
+      "PowerA",
+      "PowerB"
+    ],
+    "fAmount": 5e-6,
+    "strIntPowerOn": "MSDoorH3OpenLockedPowerupAllow",
+    "strIntPowerOff": "MSDoorH3OpenLockedShutdownAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower": true
+  }
+]

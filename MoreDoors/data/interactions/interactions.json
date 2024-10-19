@@ -1,0 +1,36 @@
+[
+  {
+    "strName" : "ACTPryOpenAllow",
+    "strTitle" : "Pry",
+    "strDesc" : "[us] pries [them] open.",
+    "strActionGroup" : "Use",
+    "strAnim"           : "Tooling",
+    "strIdleAnim"       : null,
+    "strTargetPoint" : null,
+    "fTargetPointRange" : 1,
+    "strBubble"         : "BblTouch",
+    "aInverse"          : [
+      "MSDoor01ClosedOpenAllow",
+      "MSDoorH1ClosedOpenAllow",
+      "MSDoorH2ClosedOpenAllow",
+      "MSDoorH3ClosedOpenAllow",
+      "MSDoorH4ClosedOpenAllow",
+      "MSDoor6w4ClosedOpenAllow",
+      "MSDoor5w3ClosedOpenAllow",
+      "MSDoor4w2ClosedOpenAllow",
+      "MSDoor3w1ClosedOpenAllow",
+      "MSCrate01UnlockAllow",
+      "ACTInventoryPryAllow,[us],[them]"
+    ],
+    "fDuration"         : 0.00054,
+    "strThemType"       : "Other",
+    "bIgnoreFeelings" : true,
+    "nLogging"         : 1,
+    "LootCTsUs"       : "CTACTPryAllow",
+    "LootCTsThem"     : null,
+    "CTTestUs"           : "TNoDiscomfortsFatigue",
+    "CTTestThem"         : null,
+    "aLootItms"       : [
+    ]
+  }
+]

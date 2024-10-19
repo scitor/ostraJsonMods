@@ -1,0 +1,27 @@
+[
+  { "strName" : "ACTDoor5w3ClosedDamage", "aCOs" : [ "MSDoor5w3ClosedDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTDoor5w3ClosedDestroy", "aCOs" : [ "MSDoor5w3ClosedDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTDoor5w3ClosedLooseDamage", "aCOs" : [ "MSDoor5w3ClosedLooseDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTDoor5w3ClosedLooseDestroy", "aCOs" : [ "MSDoor5w3ClosedLooseDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+  {
+    "strName": "ItmDoor5w3ClosedDamage",
+    "aCOs": [
+      "ItmDoor5w3ClosedDmg=1.0x1"
+    ],
+    "aLoots": [
+      "ItmDoorComponents=1.0x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmDoor5w3ClosedLooseDamage",
+    "aCOs": [
+      "ItmDoor5w3ClosedDmgLoose=1.0x1"
+    ],
+    "aLoots": [
+      "ItmDoorComponents=1.0x1"
+    ],
+    "strType": "item"
+  }
+]

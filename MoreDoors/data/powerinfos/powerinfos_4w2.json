@@ -1,0 +1,58 @@
+[
+  {
+    "strName": "Door4w2Closed",
+    "aInputPts": [
+      "PowerA",
+      "PowerB"
+    ],
+    "fAmount": 4e-6,
+    "strIntPowerOn": "MSDoor4w2ClosedPowerupAllow",
+    "strIntPowerOff": "MSDoor4w2ClosedShutdownAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower": true
+  },
+  {
+    "strName": "Door4w2ClosedLocked",
+    "aInputPts": [
+      "PowerA",
+      "PowerB"
+    ],
+    "fAmount": 4e-6,
+    "strIntPowerOn": "MSDoor4w2ClosedLockedPowerupAllow",
+    "strIntPowerOff": "MSDoor4w2ClosedLockedShutdownAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower": true
+  },
+  {
+    "strName": "Door4w2Open",
+    "aInputPts": [
+      "PowerA",
+      "PowerB"
+    ],
+    "fAmount": 4e-6,
+    "strIntPowerOn": "MSDoor4w2OpenPowerupAllow",
+    "strIntPowerOff": "MSDoor4w2OpenShutdownAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower": true
+  },
+  {
+    "strName": "Door4w2OpenLocked",
+    "aInputPts": [
+      "PowerA",
+      "PowerB"
+    ],
+    "fAmount": 4e-6,
+    "strIntPowerOn": "MSDoor4w2OpenLockedPowerupAllow",
+    "strIntPowerOff": "MSDoor4w2OpenLockedShutdownAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower": true
+  }
+]

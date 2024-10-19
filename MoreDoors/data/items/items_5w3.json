@@ -1,0 +1,251 @@
+[
+  {
+    "strName" : "ItmDoor5w3Closed",
+    "strImg"  : "ItmDoor5w3Closed",
+    "strImgNorm"  : "ItmDoor5w3Closedn",
+    "strImgDamaged" : "ItmDoor5w3ClosedDmg02",
+    "strDmgColor" : "DamageTintNone",
+    "fZScale"  : 1.0,
+    "nCols"  : 5,
+    "aSocketAdds"    : [
+      "TILWallAdds", "TILPortalClosedStuck", "TILPortalClosedStuck", "TILPortalClosedStuck", "TILWallAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "TILObstruction", "TILObstruction", "TILObstruction", "TILObstruction", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aShadowBoxes"  : [
+      "-2.0,0.0,0.5,0.5",
+      "-1.0,0.0,0.5,0.5",
+      "0.0,0.0,0.5,0.5",
+      "1.0,0.0,0.5,0.5",
+      "2.0,0.0,0.5,0.5"
+    ]
+  },
+  {
+    "strName" : "ItmDoor5w3ClosedOn",
+    "strImg"  : "ItmDoor5w3Closed",
+    "strImgNorm"  : "ItmDoor5w3Closedn",
+    "strImgDamaged" : "ItmDoor5w3ClosedDmg02",
+    "strDmgColor" : "DamageTintNone",
+    "fZScale"  : 1.0,
+    "nCols"  : 5,
+    "aLights"        : [
+      "Door5w3ClosedOn"
+    ],
+    "aSocketAdds"    : [
+      "TILWallAdds", "TILPortalClosed", "TILPortalClosed", "TILPortalClosed", "TILWallAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "TILObstruction", "TILObstruction", "TILObstruction", "TILObstruction", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aShadowBoxes"  : [
+      "-2.0,0.0,0.5,0.5",
+      "-1.0,0.0,0.5,0.5",
+      "0.0,0.0,0.5,0.5",
+      "1.0,0.0,0.5,0.5",
+      "2.0,0.0,0.5,0.5"
+    ]
+  },
+  {
+    "strName" : "ItmDoor5w3ClosedOnLocked",
+    "strImg"  : "ItmDoor5w3Closed",
+    "strImgNorm"  : "ItmDoor5w3Closedn",
+    "strImgDamaged" : "ItmDoor5w3ClosedDmg02",
+    "strDmgColor" : "DamageTintNone",
+    "fZScale"  : 1.0,
+    "nCols"  : 5,
+    "aLights"        : [
+      "Door5w3ClosedOnLocked"
+    ],
+    "aSocketAdds"    : [
+      "TILWallAdds", "TILPortalClosedStuck", "TILPortalClosedStuck", "TILPortalClosedStuck", "TILWallAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "TILObstruction", "TILObstruction", "TILObstruction", "TILObstruction", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aShadowBoxes"  : [
+      "-2.0,0.0,0.5,0.5",
+      "-1.0,0.0,0.5,0.5",
+      "0.0,0.0,0.5,0.5",
+      "1.0,0.0,0.5,0.5",
+      "2.0,0.0,0.5,0.5"
+    ]
+  },
+  {
+    "strName" : "ItmDoor5w3ClosedLoose",
+    "strImg"  : "ItmDoor5w3ClosedLoose",
+    "strImgNorm"  : "ItmDoor5w3ClosedLoosen",
+    "strImgDamaged" : "ItmDoor5w3ClosedDmg02Loose",
+    "strDmgColor" : "DamageTintNone",
+    "fZScale"  : 0.5,
+    "nCols"  : 5,
+    "aSocketAdds"    : [
+      "TILItemAdds", "TILItemAdds", "TILItemAdds", "TILItemAdds", "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "TILItemForbids", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmDoor5w3Open",
+    "strImg"  : "ItmDoor5w3Open",
+    "strImgNorm"  : "ItmDoor5w3Openn",
+    "strImgDamaged" : "ItmDoor5w3OpenDmg02",
+    "strDmgColor" : "DamageTintNone",
+    "fZScale"  : 1.0,
+    "nCols"  : 5,
+    "aSocketAdds"    : [
+      "TILWallAdds", "TILPortalOpen", "TILPortalOpen", "TILPortalOpen", "TILWallAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "TILObstruction", "TILObstruction", "TILObstruction", "TILObstruction", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aShadowBoxes"  : [
+      "-2.0,0.0,0.5,0.5",
+      "2.0,0.0,0.5,0.5"
+    ]
+  },
+  {
+    "strName" : "ItmDoor5w3OpenOn",
+    "strImg"  : "ItmDoor5w3Open",
+    "strImgNorm"  : "ItmDoor5w3Openn",
+    "strImgDamaged" : "ItmDoor5w3OpenDmg02",
+    "strDmgColor" : "DamageTintNone",
+    "fZScale"  : 1.0,
+    "nCols"  : 5,
+    "aLights"        : [
+      "Door5w3OpenOn"
+    ],
+    "aSocketAdds"    : [
+      "TILWallAdds", "TILPortalOpen", "TILPortalOpen", "TILPortalOpen", "TILWallAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "TILObstruction", "TILObstruction", "TILObstruction", "TILObstruction", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aShadowBoxes"  : [
+      "-2.0,0.0,0.5,0.5",
+      "2.0,0.0,0.5,0.5"
+    ]
+  },
+  {
+    "strName" : "ItmDoor5w3OpenOnLocked",
+    "strImg"  : "ItmDoor5w3Open",
+    "strImgNorm"  : "ItmDoor5w3Openn",
+    "strImgDamaged" : "ItmDoor5w3OpenDmg02",
+    "strDmgColor" : "DamageTintNone",
+    "fZScale"  : 1.0,
+    "nCols"  : 5,
+    "aLights"        : [
+      "Door5w3OpenOnLocked"
+    ],
+    "aSocketAdds"    : [
+      "TILWallAdds", "TILPortalOpen", "TILPortalOpen", "TILPortalOpen", "TILWallAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "TILObstruction", "TILObstruction","TILObstruction", "TILObstruction", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aShadowBoxes"  : [
+      "-2.0,0.0,0.5,0.5",
+      "2.0,0.0,0.5,0.5"
+    ]
+  },
+  {
+    "strName" : "ItmDoor5w3ClosedDmg",
+    "strImg"  : "ItmDoor5w3ClosedDmg02",
+    "strImgNorm"  : "ItmDoor5w3ClosedDmg02n",
+    "strImgDamaged" : "",
+    "strDmgColor" : "DamageTintRust",
+    "fZScale"  : 1.0,
+    "nCols"  : 5,
+    "aSocketAdds"    : [
+      "TILWallAdds", "TILPortalClosedStuck", "TILPortalClosedStuck", "TILPortalClosedStuck", "TILWallAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "TILObstruction", "TILObstruction", "TILObstruction", "TILObstruction", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aShadowBoxes"  : [
+      "-2.0,0.0,0.5,0.5",
+      "-0.8,0.0,0.7,0.5",
+      "0.8,0.0,0.7,0.5",
+      "2.0,0.0,0.5,0.5"
+    ]
+  },
+  {
+    "strName" : "ItmDoor5w3ClosedDmgLoose",
+    "strImg"  : "ItmDoor5w3ClosedDmg02Loose",
+    "strImgNorm"  : "ItmDoor5w3ClosedDmg02Loosen",
+    "strImgDamaged" : "",
+    "strDmgColor" : "DamageTintRust",
+    "fZScale"  : 0.5,
+    "nCols"  : 5,
+    "aSocketAdds"    : [
+      "TILItemAdds", "TILItemAdds", "TILItemAdds", "TILItemAdds", "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "TILItemForbids", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank"
+    ]
+  }
+]

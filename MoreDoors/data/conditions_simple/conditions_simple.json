@@ -1,0 +1,15 @@
+[
+  {
+    "strName" : "Simple Conditions",
+    "aValues" : [
+      "IsDoorH1","Interior Airlock H1","[us] is a horizontal 1 wide interior airlock.","2","2","Neutral",
+      "IsDoorH2","Interior Airlock H2","[us] is a horizontal 2 wide interior airlock.","2","2","Neutral",
+      "IsDoorH3","Interior Airlock H3","[us] is a horizontal 3 wide interior airlock.","2","2","Neutral",
+      "IsDoorH4","Interior Airlock H4","[us] is a horizontal 4 wide interior airlock.","2","2","Neutral",
+      "IsDoor6w4","Interior Airlock 6/4","[us] is a compact 6/4 interior airlock.","2","2","Neutral",
+      "IsDoor5w3","Interior Airlock 5/3","[us] is a compact 5/3 interior airlock.","2","2","Neutral",
+      "IsDoor4w2","Interior Airlock 4/2","[us] is a compact 4/2 interior airlock.","2","2","Neutral",
+      "IsDoor3w1","Interior Airlock 3/1","[us] is a compact 3/1 interior airlock.","2","2","Neutral"
+    ]
+  }
+]

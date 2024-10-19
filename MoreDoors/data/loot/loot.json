@@ -1,0 +1,77 @@
+[
+  {
+    "strName" : "ItmOKLGFurnishingsKioskInv",
+    "aCOs"    : [
+    ],
+    "aLoots"  : [
+      "ItmTable01Loose=1.0x6",
+      "ItmTable02Loose=1.0x6",
+      "ItmChair01Loose=1.0x21",
+      "ItmChair02Loose=1.0x21",
+      "ItmChairStrap01Loose=1.0x21",
+      "ItmElectricalBox01Loose=1.0x21",
+      "ItmTerminal01Loose=1.0x12",
+      "ItmJukebox01Loose=1.0x6",
+      "ItmTV01Loose=1.0x6",
+      "ItmSignNeon01Loose=1.0x6",
+      "ItmLitWall1x0OffLooseCustom=1.0x20",
+      "ItmVent02Loose=1.0x6",
+      "ItmHatch01Loose=1.0x6",
+      "ItmBed02Loose=1.0x12",
+      "ItmBed01Loose=1.0x6",
+      "ItmBedMedical01Loose=1.0x6",
+      "ItmTreadmill01Loose=1.0x2",
+      "ItmStrengthTrainer01Loose=1.0x2",
+      "ItmArcadeGame01Loose=1.0x2",
+      "ItmSink01Loose=1.0x6",
+      "ItmSink01LooseNew=1.0x6",
+      "ItmToilet01Loose=1.0x6",
+      "ItmFridge01Loose=1.0x6",
+      "ItmHeater01OffLoose=1.0x6",
+      "ItmCooler01OffLoose=1.0x6",
+      "ItmAtmoScrubber01OffLoose=1.0x6",
+      "ItmAtmoScrubber02OffLoose=1.0x6",
+      "ItmAlarmContaminantsOffLoose=1.0x10",
+      "ItmFusionABLWall01Loose=1.0x5",
+      "ItmRandomDecorItem=1.0x5",
+      "ItmWallWindow1x1Loose=1.0x21",
+      "ItmRandomWallThin=1.0x20",
+      "ItmFloorTSDOC_01Loose=1.0x21",
+      "ItmFloorTSDOC_02Loose=1.0x21",
+      "ItmFloorTSDOC_03Loose=1.0x21",
+      "ItmFloorTSDOC_04Loose=1.0x21",
+      "ItmFloorTSDOC_05Loose=1.0x21",
+      "ItmFloorTSDOC_06Loose=1.0x21",
+      "ItmFloorTSDOC_07Loose=1.0x21",
+      "ItmFloorTSDOC_08Loose=1.0x21",
+      "ItmFloorTSDOC_08aLoose=1.0x21",
+      "ItmFloorTSDOC_08bLoose=1.0x21",
+      "ItmFloorTSDOC_08cLoose=1.0x21",
+      "ItmFloorTSDOC_08dLoose=1.0x21",
+      "ItmFloorTSDOC_08eLoose=1.0x21",
+      "ItmRandomRackLoose=1.0x21",
+      "ItmRandomStorageBinLoose=1.0x21",
+
+      "ItmDoor01Loose=1.0x6",
+      "ItmDoorH1Loose=1.0x6",
+      "ItmDoorH2Loose=1.0x6",
+      "ItmDoorH3Loose=1.0x6",
+      "ItmDoorH4Loose=1.0x6",
+      "ItmDoor6w4Loose=1.0x6",
+      "ItmDoor4w2Loose=1.0x6",
+      "ItmDoor5w3Loose=1.0x6",
+      "ItmDoor3w1Loose=1.0x6"
+    ]
+  },
+
+  {
+    "strName" : "ItmRandomDamagedParts",
+    "aCOs"    : [
+    ],
+    "aLoots"  : [
+      "ItmAirPump01DmgLoose=0.033x1|ItmAlarmCO2DmgLoose=0.033x1|ItmAlarmN2DmgLoose=0.033x1|ItmAlarmO2DmgLoose=0.033x1|ItmAlarmTempDmgLoose=0.033x1|ItmAntenna01DmgLoose=0.033x1|ItmAtmoScrubber01DmgLoose=0.033x1|ItmBattery02DmgLoose=0.033x1|ItmBedMedical01DmgLoose=0.033x1|ItmBed01DmgLoose=0.033x1|ItmChair01DmgLoose=0.033x1|ItmChair02DmgLoose=0.033x1|ItmChairStrap01DmgLoose=0.033x1|ItmCooler01DmgLoose=0.033x1|ItmHeater01DmgLoose=0.033x1|ItmFridge01DmgLoose=0.033x1|ItmDoor01ClosedDmgLoose=0.033x1|ItmStationNavDmgLoose=0.033x1|ItmSwitch01DmgLoose=0.033x1|ItmElectricalBox01DmgLoose=0.033x1|ItmTowingBrace01DmgLoose=0.033x1|ItmStrengthTrainer01DmgLoose=0.033x1|ItmTreadmill01DmgLoose=0.033x1|ItmChargerBattEVADmgLoose=0.033x1|ItmArcadeGame01DmgLoose=0.033x1|ItmRCSCluster01DmgLoose=0.033x1|ItmBattery02bDmgLoose=0.033x1|ItmBattery02cDmgLoose=0.033x1|ItmRCSDistro01DmgLoose=0.033x1|ItmRCSDistro02DmgLoose=0.033x1|ItmRandomFusionPart=0.033x1",
+      "ItmDoorH1ClosedDmgLoose=0.01x1|ItmDoorH2ClosedDmgLoose=0.01x1|ItmDoorH3ClosedDmgLoose=0.01x1|ItmDoorH4ClosedDmgLoose=0.01x1|ItmDoor6w4ClosedDmgLoose=0.01x1|ItmDoor4w2ClosedDmgLoose=0.01x1|ItmDoor5w3ClosedDmgLoose=0.01x1|ItmDoor3w1ClosedDmgLoose=0.01x1"
+    ],
+    "strType" : "item"
+  }
+]

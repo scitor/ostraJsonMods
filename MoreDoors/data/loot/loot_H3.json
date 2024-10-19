@@ -1,0 +1,27 @@
+[
+  { "strName" : "ACTDoorH3ClosedDamage", "aCOs" : [ "MSDoorH3ClosedDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTDoorH3ClosedDestroy", "aCOs" : [ "MSDoorH3ClosedDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTDoorH3ClosedLooseDamage", "aCOs" : [ "MSDoorH3ClosedLooseDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTDoorH3ClosedLooseDestroy", "aCOs" : [ "MSDoorH3ClosedLooseDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+  {
+    "strName": "ItmDoorH3ClosedDamage",
+    "aCOs": [
+      "ItmDoorH3ClosedDmg=1.0x1"
+    ],
+    "aLoots": [
+      "ItmDoorComponents=1.0x1"
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmDoorH3ClosedLooseDamage",
+    "aCOs": [
+      "ItmDoorH3ClosedDmgLoose=1.0x1"
+    ],
+    "aLoots": [
+      "ItmDoorComponents=1.0x1"
+    ],
+    "strType": "item"
+  }
+]

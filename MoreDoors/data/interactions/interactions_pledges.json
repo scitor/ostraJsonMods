@@ -1,0 +1,30 @@
+[
+  {
+    "strName" : "PLGAutoClose",
+    "strTitle" : "Us is autoclosing",
+    "strDesc" : "[us] auto closes.",
+    "strActionGroup" : "Use",
+    "nLogging"  : 0,
+    "strTargetPoint" : null,
+    "strAnim"         : null,
+    "strBubble"         : null,
+    "aInverse"          : [
+      "MSDockSysAutoCloseAllow",
+      "MSDoor01OpenOnAutoCloseAllow",
+      "MSDoorH1OpenOnAutoCloseAllow",
+      "MSDoorH2OpenOnAutoCloseAllow",
+      "MSDoorH3OpenOnAutoCloseAllow",
+      "MSDoorH4OpenOnAutoCloseAllow",
+      "MSDoor6w4OpenOnAutoCloseAllow",
+      "MSDoor5w3OpenOnAutoCloseAllow",
+      "MSDoor4w2OpenOnAutoCloseAllow",
+      "MSDoor3w1OpenOnAutoCloseAllow"
+    ],
+    "fDuration"         : 0.0001,
+    "strThemType"       : "Self",
+    "bHumanOnly"      : false,
+    "bIgnoreFeelings" : true,
+    "CTTestUs"           : "TIsPortalOpen",
+    "CTTestThem"        : null
+  }
+]
