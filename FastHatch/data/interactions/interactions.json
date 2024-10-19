@@ -1,0 +1,56 @@
+[
+  {
+    "strName" : "ACTHatchCloseStart",
+    "strTitle" : "Close",
+    "strDesc" : "[us] starts closing [them].",
+    "strTooltip" : "Closes the door. Warning: atmospheric conditions may vary significantly on the other side!",
+    "strActionGroup" : "Use",
+    "strTargetPoint" : "use",
+    "fTargetPointRange" : 1.5,
+    "strAnim"           : "Tablet",
+    "strBubble"         : "BblTouch",
+    "aInverse"          : [
+      "ACTHatch01CloseAllow"
+    ],
+    "fDuration"         : 0.00055,
+    "strThemType"       : "Other",
+    "strRaiseUI"        : null,
+    "nLogging"         : 1,
+    "bOpener"     : true,
+    "bIgnoreFeelings" : true,
+    "LootCTsUs"       : null,
+    "LootCTsThem"     : null,
+    "CTTestUs"           : "TIsHumanAwake",
+    "CTTestThem"         : "TIsHatch01Open",
+    "aLootItms"       : [
+    ],
+    "objLootModeSwitch"    : null
+  },
+  {
+    "strName" : "ACTHatchOpenStart",
+    "strTitle" : "Open",
+    "strDesc" : "[us] starts opening [them].",
+    "strTooltip" : "Opens the door. Warning: atmospheric conditions may vary significantly on the other side!",
+    "strActionGroup" : "Use",
+    "strTargetPoint" : "use",
+    "fTargetPointRange" : 1.5,
+    "strAnim"           : "Tablet",
+    "strBubble"         : "BblTouch",
+    "aInverse"          : [
+      "ACTHatch01OpenAllow"
+    ],
+    "fDuration"         : 0.00055,
+    "strThemType"       : "Other",
+    "strRaiseUI"        : null,
+    "nLogging"         : 1,
+    "bOpener"     : true,
+    "bIgnoreFeelings" : true,
+    "LootCTsUs"       : null,
+    "LootCTsThem"     : null,
+    "CTTestUs"           : "TIsHumanAwake",
+    "CTTestThem"         : "TIsHatch01Closed",
+    "aLootItms"       : [
+    ],
+    "objLootModeSwitch"    : null
+  }
+]
