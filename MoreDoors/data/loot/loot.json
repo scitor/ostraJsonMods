@@ -52,15 +52,14 @@
       "ItmRandomRackLoose=1.0x21",
       "ItmRandomStorageBinLoose=1.0x21",
 
-      "ItmDoor01Loose=1.0x6",
-      "ItmDoorH1Loose=1.0x6",
-      "ItmDoorH2Loose=1.0x6",
-      "ItmDoorH3Loose=1.0x6",
-      "ItmDoorH4Loose=1.0x6",
-      "ItmDoor6w4Loose=1.0x6",
-      "ItmDoor4w2Loose=1.0x6",
-      "ItmDoor5w3Loose=1.0x6",
-      "ItmDoor3w1Loose=1.0x6"
+      "ItmDoorH1ClosedLoose=1.0x6",
+      "ItmDoorH2ClosedLoose=1.0x6",
+      "ItmDoorH3ClosedLoose=1.0x6",
+      "ItmDoorH4ClosedLoose=1.0x6",
+      "ItmDoor6w4ClosedLoose=1.0x6",
+      "ItmDoor4w2ClosedLoose=1.0x6",
+      "ItmDoor5w3ClosedLoose=1.0x6",
+      "ItmDoor3w1ClosedLoose=1.0x6"
     ]
   },
 
